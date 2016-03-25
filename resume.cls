@@ -68,7 +68,7 @@
 \def \printname {
   \begingroup
     \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
-    \nameskip\break
+    \nameskip
   \endgroup
 }
 
@@ -126,5 +126,5 @@
 \def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
 \def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
-\def\nameskip{\bigskip} % The space after your name at the top
+\def\nameskip{\medskip} % The space after your name at the top
 \def\sectionskip{\medskip} % The space after the heading section
