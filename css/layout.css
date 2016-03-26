@@ -358,7 +358,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: ruby 2s ease;
 }
 .erlang {
-  	width: 15%;
+  	width: 20%;
   	-moz-animation: erlang 2s ease;
   	-webkit-animation: ruby 2s ease;
 }
@@ -419,7 +419,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes erlang {
   0%   { width: 0px;  }
-  100% { width: 15%;  }
+  100% { width: 20%;  }
 }
 @-moz-keyframes bootstrap {
   0%   { width: 0px;  }
