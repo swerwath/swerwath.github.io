@@ -14,10 +14,11 @@ span {
 }
 
 a {
+  padding-right: 3.8em;
   text-decoration: none;
   color: #808080;
 }
 
 a:hover, a:focus {
-    color: #507642;
+  color: #507642;
 }
