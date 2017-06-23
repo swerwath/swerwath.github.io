@@ -23,8 +23,10 @@
 
 \usepackage[left=0.5in,top=0.6in,right=0.65in,bottom=0.65in]{geometry} % Document margins
 \usepackage{ textcomp }
+\usepackage{xfrac}
+
 \name{Scott Werwath} % Your name
-\address{1930 Channing Way, Apt. 3E \\ Berkeley, California 94704}
+\address{2013\sfrac{1}{2} Hearst Ave \\ Berkeley, California 94709}
 \address{(804) 380-1188 \\ sw@swerwath.com \\ swerwath.github.io} % Your phone number an} % Your address
 
 \begin{document}
@@ -35,7 +37,7 @@
 
 \begin{rSection}{Technical Skills}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & Python, C, C++, C\#, Java, Javascript \\
+Languages & C++, Python, C, C\#, Java, Javascript \\
 Frameworks & Tensorflow, MapReduce, NumPy, MPI, Node, .NET \\
 Misc. & Git, Neural Networks, WebSockets, Relational Databases, Redis
 \end{tabular}
@@ -58,8 +60,11 @@ B.S. Electrical Engineering \& Computer Sciences \hfill {\em GPA (major): 3.9, G
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Work Experience}
+\begin{rSubsection}{Facebook}{May 2017 \textminus Present}{Software Engineering Intern}{Seattle, Washington}
+\item[] Building service to offload address symbolization of executables from the machine being profiled
+\end{rSubsection}
 \begin{rSubsection}{Google}{January 2017\textminus May 2017}{Software Engineering Intern}{Mountain View, California}
-\item[] Developed novel Machine Learning techniques to disambiguate entity mentions based on linguistic context
+\item[] Developed novel Machine Learning and NLP techniques to disambiguate entity mentions in unstructured text based on linguistic context
 \item[] Wrote large-scale data processing pipelines for example generation, model training, and model evaluation
 \end{rSubsection}
 \begin{rSubsection}{CITRIS Foundry}{September 2016\textminus December 2016}{Engineering Fellow}{Berkeley, California}
