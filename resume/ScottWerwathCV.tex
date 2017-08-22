@@ -1,0 +1,105 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.5in,top=0.6in,right=0.65in,bottom=0.65in]{geometry} % Document margins
+\usepackage{ textcomp }
+\usepackage{xfrac}
+
+\name{Scott Werwath} % Your name
+\address{(804) 380-1188 \\ sbw@berkeley.edu \\ swerwath.github.io} % Your phone number an} % Your address
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & C++, Python, C, C\#, Java, Javascript, Haskell \\
+Frameworks & Tensorflow, MapReduce, NumPy, MPI, Node, .NET \\
+Misc. & Git, Neural Networks, WebSockets, Relational Databases
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf University of California, Berkeley} \hfill {September 2015\textminus Expected May 2019} \\ 
+B.S. Electrical Engineering \& Computer Sciences \hfill {\em GPA (major): 3.9, GPA (overall): 3.6}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+\begin{rSubsection}{Facebook}{May 2017 \textminus August 2017}{Software Engineering Intern}{Seattle, Washington}
+\item[] Designed and built centralized service to parse binaries, cache their symbol tables, and efficiently serve requests for symbolization of address stacks
+\item[] Integrated new service into profiling tool deployed across every host in Facebook's fleet, reducing its p90 memory usage by 20\% and allowing for the use of more accurate sampling techniques
+\end{rSubsection}
+\begin{rSubsection}{Google}{January 2017\textminus May 2017}{Software Engineering Intern}{Mountain View, California}
+\item[] Developed novel Machine Learning and NLP techniques to disambiguate entity mentions in unstructured text based on linguistic context
+\item[] Wrote large-scale data processing pipelines for example generation, model training, and model evaluation
+\end{rSubsection}
+\begin{rSubsection}{CITRIS Foundry}{September 2016\textminus December 2016}{Engineering Fellow}{Berkeley, California}
+\item[] Prototyped embedded systems for Numericcal, a DSP and controls startup in the Foundry accelerator
+\item[] Implemented and optimized linear algebra algorithms for high-performance embedded control systems
+\end{rSubsection}
+\begin{rSubsection}{SolarCity (division of Tesla)}{June 2016\textminus August 2016}{Software Engineering Intern}{San Francisco, California}
+\item[] Designed and built Node.js WebSocket microservice to enable real time interaction and data streaming between customers and sales representatives
+\item[] Refactored .NET routes and database schemas, reducing average customer-facing API response time by 75\%
+\end{rSubsection}
+\end{rSection}
+
+
+
+\begin{rSection}{Research}
+\begin{rSubsection}{UC Berkeley, Energy \& Resources Group}{September 2016\textminus December 2016}{}{}
+\item[] Developed integrated assessment modeling library for use by the White House, EPA, and other federal bodies to estimate the economic and environmental effects of policy decisions 
+\item[] Augmented Julia library to allow users to run Monte Carlo simulations across computing clusters
+\end{rSubsection}
+\begin{rSubsection}{UC Berkeley, Computer Sciences Division}{January 2016\textminus June 2016}{}{}
+\item[] Identified main challenges in performing game analysis with distributed computing systems
+\item[] Developed novel algorithm for solving arbitrary abstract strategy games on distributed systems with MPI
+\item[] Deployed algorithm to the Savio High Performance Computing Cluster for testing and analysis
+\end{rSubsection}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
