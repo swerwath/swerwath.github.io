@@ -9,7 +9,7 @@
           ws.onmessage = function (evt) {
             var received_msg = evt.data;
             if (received_msg.includes("-")) {
-              document.getElementById("lastmod").innerHTML = "Model last updated " + received_msg
+              document.getElementById("lastmod").innerHTML = "Model Online. Last updated " + received_msg
             } else {
               var score = Number(received_msg)
               if (score >= 0.8) {
@@ -67,7 +67,7 @@
       </div>
       <button class="btn btn-lg btn-primary btn-block" type="button" onclick="handleClick(); return false;">Analyze Report</button>
       <p class="mt-5 mb-3 text-muted text-center">This demo was created to accompany "Automated determination of communicable findings in radiology reports with intelligent word embeddings"</p>
-      <p class="mt-5 mb-3 text-muted text-center" id="lastmod"></p>
+      <p class="mt-5 mb-3 text-muted text-center" id="lastmod">Model Offline</p>
     </form>
   </body>
 </html>
