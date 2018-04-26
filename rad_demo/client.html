@@ -6,6 +6,10 @@
         if ("WebSocket" in window) {
           ws = new WebSocket("ws://76.21.44.221:443");
 
+          ws.onclose = function(evt) {
+            document.getElementById("lastmod").innerHTML = "Model Offline"
+          }
+
           ws.onmessage = function (evt) {
             var received_msg = evt.data;
             if (received_msg.includes(" ")) {
