@@ -8,8 +8,9 @@ body {
 }
 
 span {
-  margin: 0 1em;
+  margin-right: 0 1em;
   display: inline-block;
+  width: 40%;
   text-align: left;
 }
 
